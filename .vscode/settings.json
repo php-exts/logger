@@ -1,0 +1,44 @@
+{
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  "gitlens.advanced.fileHistoryShowAllBranches": true,
+  "gitlens.blame.heatmap.location": "left",
+  "files.associations": {
+    "env-example": "dotenv",
+    "Dockerfile-*": "dockerfile",
+    "Dockerfile.*": "dockerfile",
+    "*.ign": "json",
+    "*.fcc": "yaml",
+    ".ini*": "ini",
+    "*.strings": "plist",
+    "*.alias": "shellscript",
+    "aliases": "shellscript",
+    ".aliases": "shellscript",
+    "*.aliases": "shellscript",
+    ".zsh*": "shellscript",
+    ".*rc": "shellscript",
+    "fastcgi_params": "nginx",
+    "*.install": "shellscript",
+    "*.tpl": "php"
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "files.watcherExclude": {
+    "**/vendor/**": true
+  },
+  "search.exclude": {
+    "**/vendor": true
+  },
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "json.maxItemsComputed": 200000,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": false,
+  "editor.wordWrap": "on",
+  "editor.snippetSuggestions": "top",
+  "diffEditor.codeLens": true,
+}
