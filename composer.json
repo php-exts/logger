@@ -1,13 +1,12 @@
 {
-  "name": "imxieke/dev-template-php",
-  "description": "PHP Project Template",
+  "name": "ext/logger",
+  "description": "PHP Logger",
   "type": "library",
   "license": "MIT",
-  "homepage": "https://github.com/ext/ext",
+  "homepage": "https://github.com/php-exts/logger",
   "keywords": [
     "php",
-    "project",
-    "template"
+    "logger"
   ],
   "authors": [
     {
@@ -18,7 +17,8 @@
     }
   ],
   "require": {
-    "php": ">=8.2"
+    "php": ">=8.2",
+    "monolog/monolog": "^3.9"
   },
   "require-dev": {
     "mockery/mockery": "^1.6",
